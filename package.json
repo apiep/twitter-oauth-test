@@ -1,0 +1,21 @@
+{
+  "name": "twit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve --global twit --bundle-node-modules index.html",
+    "build": "parcel build --global twit index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "oauth-1.0a": "^2.2.5"
+  },
+  "devDependencies": {
+    "parcel": "^1.11.0"
+  }
+}
